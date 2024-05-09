@@ -1,0 +1,41 @@
+.item-container {
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    max-width: 100%;
+    margin-bottom: 20px;
+    padding: 2px 0;
+}
+
+.income {
+    border-right: 10px solid rgb(0, 255, 0);
+}
+
+.expenses {
+    border-right: 10px solid red;
+}
+
+.item-container ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+}
+
+.item-container li {
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.item-container ul li button {
+    background-color:rgb(255, 77, 13);
+    color: white;
+    width: 50%;
+    position: relative;
+    left: 50px;
+    bottom: 4px;
+}
+
+.item-container ul li button:hover {
+    background-color: red;
+}
