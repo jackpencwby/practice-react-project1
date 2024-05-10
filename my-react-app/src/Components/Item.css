@@ -4,7 +4,7 @@
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     max-width: 100%;
     margin-bottom: 20px;
-    padding: 2px 0;
+    padding: 1px 0;
 }
 
 .income {
@@ -30,7 +30,7 @@
 .item-container ul li button {
     background-color:rgb(255, 77, 13);
     color: white;
-    width: 50%;
+    width: 60%;
     position: relative;
     left: 50px;
     bottom: 4px;
